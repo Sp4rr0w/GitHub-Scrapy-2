@@ -1,0 +1,12 @@
+{'followers': u'7',
+ 'following': u'13',
+ 'fullname': u'Josue Plaza',
+ 'home_page': 'https://github.com/HexagonStorms',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/7490582?v=3&s=460'],
+ 'joined': u'May 5, 2014',
+ 'mail': u'josueplazamusic@gmail.com',
+ 'organization': u'San Antonio',
+ 'popular_repos': u'  community-helpers blog.dev Codeup_Exercises Codeup_Web_Exercises covomusic',
+ 'repo_contributions': u'  avocode/avocode / / / /',
+ 'starred': u'0',
+ 'username': u'HexagonStorms'}

@@ -1,0 +1,12 @@
+{'followers': u'11',
+ 'following': u'26',
+ 'fullname': u'Averrin',
+ 'home_page': 'https://github.com/averrin',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/426007?v=3&s=460'],
+ 'joined': u'Oct 4, 2010',
+ 'mail': u'averrin@gmail.com',
+ 'organization': u'Zodiac',
+ 'popular_repos': u'  emergent Ravenor.net averrin.github.com eliar Skywind_Installer',
+ 'repo_contributions': u'  paulpflug/color-tabs The-Compiler/qutebrowser xndcn/symbols-tree-view paulpflug/foldername-tabs HabitRPG/habitrpg',
+ 'starred': u'488',
+ 'username': u'averrin'}

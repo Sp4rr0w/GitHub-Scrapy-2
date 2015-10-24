@@ -1,0 +1,12 @@
+{'followers': u'5',
+ 'following': u'3',
+ 'fullname': u'Marissa Waters',
+ 'home_page': 'https://github.com/rissa3896',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/8405666?v=3&s=460'],
+ 'joined': u'Aug 10, 2014',
+ 'mail': u'rissa@rissawaters.com',
+ 'organization': u'San Antonio, Texas',
+ 'popular_repos': u'  blog.dev Class_Work CLI_ToDo Codeup_Exercises Codeup_Web_Exercises',
+ 'repo_contributions': u'  TAwesome/Capstone / / / /',
+ 'starred': u'1',
+ 'username': u'rissa3896'}

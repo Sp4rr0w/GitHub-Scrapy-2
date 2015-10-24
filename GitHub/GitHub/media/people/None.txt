@@ -1,0 +1,12 @@
+{'followers': u'13',
+ 'following': u'205',
+ 'fullname': 'None',
+ 'home_page': 'https://github.com/Azharil',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/6828183?v=3&s=460'],
+ 'joined': u'Mar 2, 2014',
+ 'mail': 'None',
+ 'organization': 'None',
+ 'popular_repos': '      ',
+ 'repo_contributions': '  / / / / /',
+ 'starred': u'1',
+ 'username': u'Azharil'}

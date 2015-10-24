@@ -1,0 +1,12 @@
+{'followers': u'3',
+ 'following': u'13',
+ 'fullname': u'Sukanta',
+ 'home_page': 'https://github.com/amisukanta',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/2115562?v=3&s=460'],
+ 'joined': u'Aug 8, 2012',
+ 'mail': u'amisukanta02@gmail.com',
+ 'organization': u'Hamburg, Germany',
+ 'popular_repos': u'  katas Portal 21-day-challenge ReadingList company',
+ 'repo_contributions': u'  RubySteps/21-day-challenge / / / /',
+ 'starred': u'0',
+ 'username': u'amisukanta'}

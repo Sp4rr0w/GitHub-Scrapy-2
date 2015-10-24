@@ -1,0 +1,12 @@
+{'followers': u'1.6k',
+ 'following': u'115k',
+ 'fullname': u'Jos\xe9 Moreira',
+ 'home_page': 'https://github.com/cusspvz',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/3604053?v=3&s=460'],
+ 'joined': u'Feb 15, 2013',
+ 'mail': u'jose.moreira@findhit.com',
+ 'organization': u'Junglecloud',
+ 'popular_repos': u'  node.docker btsync.docker c4 autotune.docker node-raspicopter',
+ 'repo_contributions': u'  findhit/coreos emvici/router requirehit/native-vm requirehit/browser findhit/snitcher',
+ 'starred': u'504',
+ 'username': u'cusspvz'}

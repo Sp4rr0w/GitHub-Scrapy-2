@@ -1,0 +1,12 @@
+{'followers': u'5',
+ 'following': u'318',
+ 'fullname': u'Pranay Kotapi',
+ 'home_page': 'https://github.com/silentcrescendo',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/1712910?v=3&s=460'],
+ 'joined': u'May 7, 2012',
+ 'mail': 'None',
+ 'organization': u'Truba Institute of Engineering&IT',
+ 'popular_repos': '      ',
+ 'repo_contributions': '  / / / / /',
+ 'starred': u'178',
+ 'username': u'silentcrescendo'}

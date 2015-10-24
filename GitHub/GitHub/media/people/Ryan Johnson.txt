@@ -1,0 +1,12 @@
+{'followers': u'14',
+ 'following': u'14',
+ 'fullname': u'Ryan Johnson',
+ 'home_page': 'https://github.com/CITguy',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/545605?v=3&s=460'],
+ 'joined': u'Jan 3, 2011',
+ 'mail': u'rhino.citguy+github@gmail.com',
+ 'organization': u'Rackspace',
+ 'popular_repos': u'  moar-elements xml-fu ratatouille soap-wss 7XX-rfc',
+ 'repo_contributions': u'  rackerlabs/encore-ui ScrapprIO/scrappr.io RubyRebels/redbird rackerlabs/encore-ui-bower lesshint/lesshint',
+ 'starred': u'232',
+ 'username': u'CITguy'}

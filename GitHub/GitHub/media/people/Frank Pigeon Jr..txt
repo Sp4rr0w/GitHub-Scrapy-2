@@ -1,0 +1,12 @@
+{'followers': u'8',
+ 'following': u'37',
+ 'fullname': u'Frank Pigeon Jr.',
+ 'home_page': 'https://github.com/fpigeon',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/4629398?v=3&s=460'],
+ 'joined': u'Jun 6, 2013',
+ 'mail': u'frank.pigeonjr@gmail.com',
+ 'organization': u'CodeUp Graduate',
+ 'popular_repos': u'  Web_Todo_List blackjack blog.dev CLI_Todo_List CodeUp_Exercises',
+ 'repo_contributions': u'  samuelrafo/piatto / / / /',
+ 'starred': u'44',
+ 'username': u'fpigeon'}

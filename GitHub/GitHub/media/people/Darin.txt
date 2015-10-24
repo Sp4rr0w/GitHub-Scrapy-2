@@ -1,0 +1,12 @@
+{'followers': u'6',
+ 'following': u'113',
+ 'fullname': u'Darin',
+ 'home_page': 'https://github.com/Dowwie',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/2601236?v=3&s=460'],
+ 'joined': u'Oct 19, 2012',
+ 'mail': u'dkcdkg@gmail.com',
+ 'organization': u"I don't code on shabbos",
+ 'popular_repos': u'  marshmallow_recipes awesome-python blog dowwie.github.io QuadraticVotingMachine',
+ 'repo_contributions': u'  YosaiProject/yosai YosaiProject/yosai_account_alchemy vinta/awesome-python marshmallow-code/marshmallow pytest-dev/pytest',
+ 'starred': u'523',
+ 'username': u'Dowwie'}

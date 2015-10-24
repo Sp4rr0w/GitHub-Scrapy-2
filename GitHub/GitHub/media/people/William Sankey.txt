@@ -1,0 +1,12 @@
+{'followers': u'11',
+ 'following': u'164',
+ 'fullname': u'William Sankey',
+ 'home_page': 'https://github.com/wsankey',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/3376159?v=3&s=460'],
+ 'joined': u'Jan 25, 2013',
+ 'mail': u'WSankey@gmail.com',
+ 'organization': u'Washington, DC',
+ 'popular_repos': u'  d3_visualizations dew Motivational Ecommerce_meteor blog',
+ 'repo_contributions': u'  codefordc/districthousing robconery/meteor-shop doxx-repo/statistics-stata-do / /',
+ 'starred': u'111',
+ 'username': u'wsankey'}

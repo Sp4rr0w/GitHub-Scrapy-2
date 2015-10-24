@@ -1,0 +1,12 @@
+{'followers': u'11',
+ 'following': u'12',
+ 'fullname': u'Drew Zawora',
+ 'home_page': 'https://github.com/DrewZawora',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/8959459?v=3&s=460'],
+ 'joined': u'Sep 29, 2014',
+ 'mail': 'None',
+ 'organization': u'San Antonio, Tx',
+ 'popular_repos': u'  blog.dev CLI_Todo_List Codeup-Web-Exercises- Codeup_Exercises Hi_Low',
+ 'repo_contributions': u'  ContainerSolutionsSA/ContainerSolutions / / / /',
+ 'starred': u'0',
+ 'username': u'DrewZawora'}

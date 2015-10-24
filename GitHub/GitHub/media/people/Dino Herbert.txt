@@ -1,0 +1,12 @@
+{'followers': u'2',
+ 'following': u'7',
+ 'fullname': u'Dino Herbert',
+ 'home_page': 'https://github.com/Dino-Herbert',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/11007591?v=3&s=460'],
+ 'joined': u'Feb 14, 2015',
+ 'mail': u'dherbert5764@gmail.com',
+ 'organization': 'None',
+ 'popular_repos': u'  21-day-challenge FindTheAnagrams FixTheTreeTDD hello_app_tutorial LetsDrill',
+ 'repo_contributions': u'  RubySteps/21-day-challenge paircolumbus/MoreEnumerables paircolumbus/FindTheAnagrams paircolumbus/MoreDrillsWithRSpec paircolumbus/LetsDrill',
+ 'starred': u'1',
+ 'username': u'Dino-Herbert'}

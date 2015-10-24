@@ -1,0 +1,12 @@
+{'followers': u'4',
+ 'following': u'49',
+ 'fullname': u'Atul Bhosale',
+ 'home_page': 'https://github.com/Atul9',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/3390330?v=3&s=460'],
+ 'joined': u'Jan 26, 2013',
+ 'mail': u'atul1bhosale@gmail.com',
+ 'organization': u'Pune',
+ 'popular_repos': u'  angular-rails oneplaceaday workingwithgit armstrong PersonalIncomeExpenses',
+ 'repo_contributions': u'  rishijain/oneplaceaday joshsoftware/website / / /',
+ 'starred': u'37',
+ 'username': u'Atul9'}

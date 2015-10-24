@@ -1,0 +1,12 @@
+{'followers': u'17',
+ 'following': u'84',
+ 'fullname': u'Rakan Alhneiti',
+ 'home_page': 'https://github.com/rakanalh',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/195829?v=3&s=460'],
+ 'joined': u'Feb 3, 2010',
+ 'mail': u'rakan.alhneiti@gmail.com',
+ 'organization': u'Berlin / Germany',
+ 'popular_repos': u'  django-pushy django-djangui django-dynamic-scraper django-restify django-youtuber',
+ 'repo_contributions': u'  rosarior/awesome-django s2krish/django-restify avelino/vim-bootstrap kahun/awesome-sysadmin holgerd77/django-dynamic-scraper',
+ 'starred': u'350',
+ 'username': u'rakanalh'}

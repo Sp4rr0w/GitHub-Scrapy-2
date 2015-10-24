@@ -1,0 +1,12 @@
+{'followers': u'13',
+ 'following': u'30',
+ 'fullname': u'John Lin',
+ 'home_page': 'https://github.com/johnlinp',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/1290376?v=3&s=460'],
+ 'joined': u'Dec 28, 2011',
+ 'mail': u'johnlinp@gmail.com',
+ 'organization': u'Synology',
+ 'popular_repos': u'  pdf-to-markdown meme-ocr nose-meter meme-classifier 9gag-crawler',
+ 'repo_contributions': u'  ooouptuooo/ooouptuooo.github.io fcamel/gj jonashagstedt/swampdragon / /',
+ 'starred': u'6',
+ 'username': u'johnlinp'}

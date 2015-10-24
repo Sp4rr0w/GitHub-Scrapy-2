@@ -1,0 +1,12 @@
+{'followers': u'7',
+ 'following': u'38',
+ 'fullname': u'Sachin Taware',
+ 'home_page': 'https://github.com/sachintaware',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/1187801?v=3&s=460'],
+ 'joined': u'Nov 11, 2011',
+ 'mail': u'sachitaware21@gmail.com',
+ 'organization': u'CBIL360',
+ 'popular_repos': u'  nuclide oh-my-zsh OpCacheGUI invoice-ninja phpenv',
+ 'repo_contributions': u'  laxmisalunkhe/knowShare rohan591/socialnewsportal Yelp/yelp-api fluent/fluentd fluent/fluentd-ui',
+ 'starred': u'43',
+ 'username': u'sachintaware'}

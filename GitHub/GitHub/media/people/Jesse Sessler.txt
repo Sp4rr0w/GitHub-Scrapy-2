@@ -1,0 +1,12 @@
+{'followers': u'20',
+ 'following': u'9',
+ 'fullname': u'Jesse Sessler',
+ 'home_page': 'https://github.com/jemise111',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/4265163?v=3&s=460'],
+ 'joined': u'Apr 26, 2013',
+ 'mail': 'None',
+ 'organization': u'New York, NY',
+ 'popular_repos': u'  baller ballerNYC ballerNYC_v3_api ballerNYC_v3_frontend chris_pine_learn_to_program',
+ 'repo_contributions': u'  likeastore/ngDialog NYCListing/api NYCListing/static TaliaS1214/Haus-The-Bot /',
+ 'starred': u'8',
+ 'username': u'jemise111'}

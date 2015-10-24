@@ -1,0 +1,12 @@
+{'followers': u'33',
+ 'following': u'9',
+ 'fullname': u'Yury Selivanov',
+ 'home_page': 'https://github.com/1st1',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/239003?v=3&s=460'],
+ 'joined': u'Apr 7, 2010',
+ 'mail': u'yury@magic.io',
+ 'organization': u'MagicStack Inc.',
+ 'popular_repos': u'  greenio cpython async_pep jedi aiopg',
+ 'repo_contributions': u'  python/cpython MagicStack/MagicPython python/peps python/asyncio MagicStack/syntaxdev',
+ 'starred': u'237',
+ 'username': u'1st1'}

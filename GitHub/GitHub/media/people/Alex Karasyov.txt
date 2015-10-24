@@ -1,0 +1,12 @@
+{'followers': u'5',
+ 'following': u'24',
+ 'fullname': u'Alex Karasyov',
+ 'home_page': 'https://github.com/alexkarasyov',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/1993707?v=3&s=460'],
+ 'joined': u'Jul 17, 2012',
+ 'mail': u'alex@karasyov.com',
+ 'organization': u'Freelance UI/UX Developer',
+ 'popular_repos': '      ',
+ 'repo_contributions': '  / / / / /',
+ 'starred': u'11',
+ 'username': u'alexkarasyov'}

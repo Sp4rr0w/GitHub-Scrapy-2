@@ -1,0 +1,12 @@
+{'followers': u'51',
+ 'following': u'134',
+ 'fullname': u'Erik Isaksen',
+ 'home_page': 'https://github.com/Nevraeka',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/647043?v=3&s=460'],
+ 'joined': u'Mar 2, 2011',
+ 'mail': u'nevraeka@gmail.com',
+ 'organization': u'Reston, VA',
+ 'popular_repos': u'  auto-complete pair-with-me ruby_learning_course atomic-style-guide webcomponents.github.io',
+ 'repo_contributions': u'  webcomponents/webcomponents.github.io thewebplatform/polymer-codelab-Devfest2014 bosonic/bosonic.github.io mateusortiz/webcomponentsweekly.me thewebplatform/thewebplatform.today',
+ 'starred': u'54',
+ 'username': u'Nevraeka'}

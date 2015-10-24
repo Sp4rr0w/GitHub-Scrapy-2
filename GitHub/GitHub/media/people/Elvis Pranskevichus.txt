@@ -1,0 +1,12 @@
+{'followers': u'6',
+ 'following': u'1',
+ 'fullname': u'Elvis Pranskevichus',
+ 'home_page': 'https://github.com/elprans',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/347119?v=3&s=460'],
+ 'joined': u'Jul 28, 2010',
+ 'mail': 'None',
+ 'organization': u'MagicStack Inc.',
+ 'popular_repos': u'  django-staticfiles-override django-ajax-selects py-postgresql cmsplugin-filer cmsplugin_gallery_filer',
+ 'repo_contributions': u'  sprymix/importkit 1st1/async_pep dateutil/dateutil edgedb/edgedb-js sprymix/docker-python',
+ 'starred': u'6',
+ 'username': u'elprans'}

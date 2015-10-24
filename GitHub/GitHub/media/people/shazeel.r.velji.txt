@@ -1,0 +1,12 @@
+{'followers': u'114',
+ 'following': u'524',
+ 'fullname': u'shazeel.r.velji',
+ 'home_page': 'https://github.com/shazeel1',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/10586217?v=3&s=460'],
+ 'joined': u'Jan 18, 2015',
+ 'mail': u'veljishazeel@gmail.com',
+ 'organization': u'SRV',
+ 'popular_repos': u'  2048 0hh1 async code_editor device-orientation-tool',
+ 'repo_contributions': u'  rishabhp/pappu-pakia / / / /',
+ 'starred': u'518',
+ 'username': u'shazeel1'}

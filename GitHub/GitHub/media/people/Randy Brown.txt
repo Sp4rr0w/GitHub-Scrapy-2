@@ -1,0 +1,12 @@
+{'followers': u'30',
+ 'following': u'49',
+ 'fullname': u'Randy Brown',
+ 'home_page': 'https://github.com/beingbrown',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/4888200?v=3&s=460'],
+ 'joined': u'Jun 30, 2013',
+ 'mail': 'None',
+ 'organization': 'None',
+ 'popular_repos': u'  creep ecosim jerty plog Propeller',
+ 'repo_contributions': u'  learnmath/lysa conversely/backend hedgerh/loremSplit learnmath/book zblock/test-it',
+ 'starred': u'73',
+ 'username': u'beingbrown'}

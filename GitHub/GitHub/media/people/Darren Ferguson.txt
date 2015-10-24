@@ -1,0 +1,12 @@
+{'followers': u'2',
+ 'following': u'26',
+ 'fullname': u'Darren Ferguson',
+ 'home_page': 'https://github.com/darren102',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/222489?v=3&s=460'],
+ 'joined': u'Mar 14, 2010',
+ 'mail': u'darren102@gmail.com',
+ 'organization': u'M.C. Dean Inc',
+ 'popular_repos': '      ',
+ 'repo_contributions': '  / / / / /',
+ 'starred': u'23',
+ 'username': u'darren102'}

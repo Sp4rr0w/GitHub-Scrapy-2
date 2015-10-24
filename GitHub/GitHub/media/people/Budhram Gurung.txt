@@ -1,0 +1,12 @@
+{'followers': u'17',
+ 'following': u'96',
+ 'fullname': u'Budhram Gurung',
+ 'home_page': 'https://github.com/budhrg',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/1132451?v=3&s=460'],
+ 'joined': u'Oct 17, 2011',
+ 'mail': u'budhram.gurung01@gmail.com',
+ 'organization': u'Vertis Microsystems LLP',
+ 'popular_repos': u'  courses_repo agoge depot gottp collection',
+ 'repo_contributions': u'  ooyala/atlantis-dashboard ooyala/atlantis-aquarium ooyala/atlantis-manager ooyala/go-docker-registry ooyala/atlantis-builder',
+ 'starred': u'123',
+ 'username': u'budhrg'}

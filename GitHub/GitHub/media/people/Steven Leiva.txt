@@ -1,0 +1,12 @@
+{'followers': u'7',
+ 'following': u'17',
+ 'fullname': u'Steven Leiva',
+ 'home_page': 'https://github.com/StevenXL',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/7391433?v=3&s=460'],
+ 'joined': u'Apr 24, 2014',
+ 'mail': u'leiva.steven@gmail.com',
+ 'organization': u'New York City',
+ 'popular_repos': u'  freecodecamp learntoprogram blogger-2 quote_machine codeabbey',
+ 'repo_contributions': u'  dcr8898/turtle-overflow dcr8898/survey-gorilla walsh9/web-flash-cards exercism/xruby nyc-mud-turtles-2015/r-bulletin-challenge',
+ 'starred': u'32',
+ 'username': u'StevenXL'}

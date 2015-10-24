@@ -1,0 +1,12 @@
+{'followers': u'29',
+ 'following': u'49',
+ 'fullname': u'Ludovic Gasc',
+ 'home_page': 'https://github.com/GMLudo',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/243823?v=3&s=460'],
+ 'joined': u'Apr 14, 2010',
+ 'mail': u'gmludo@gmail.com',
+ 'organization': u'ALLOcloud/Eyepea',
+ 'popular_repos': u'  iRail RandomHtml5Games Transabank  ',
+ 'repo_contributions': u'  TechEmpower/FrameworkBenchmarks Eyepea/API-Hour gawel/panoramisk Eyepea/cookiecutter-API-Hour KeepSafe/aiohttp',
+ 'starred': u'93',
+ 'username': u'GMLudo'}

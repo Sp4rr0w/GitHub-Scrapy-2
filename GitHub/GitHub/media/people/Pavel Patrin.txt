@@ -1,0 +1,12 @@
+{'followers': u'8',
+ 'following': u'11',
+ 'fullname': u'Pavel Patrin',
+ 'home_page': 'https://github.com/pavelpat',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/2376970?v=3&s=460'],
+ 'joined': u'Sep 19, 2012',
+ 'mail': 'None',
+ 'organization': u'Kazan, Russia',
+ 'popular_repos': u'  yastq javascript typescript-examples diveintoit-web django-template-engine',
+ 'repo_contributions': u'  arskom/spyne / / / /',
+ 'starred': u'182',
+ 'username': u'pavelpat'}

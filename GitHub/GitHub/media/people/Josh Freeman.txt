@@ -1,0 +1,12 @@
+{'followers': u'11',
+ 'following': u'5',
+ 'fullname': u'Josh Freeman',
+ 'home_page': 'https://github.com/joshfreemanIO',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/2651238?v=3&s=460'],
+ 'joined': u'Oct 25, 2012',
+ 'mail': 'None',
+ 'organization': 'None',
+ 'popular_repos': u'  test-driven-development-phpspec angular-demo yii-calendar c-programming-language yii-organization',
+ 'repo_contributions': u'  GrokInteractive/git-statistics GrokInteractive/jekyll-plugins GrokInteractive/GrokTrivia-iOS GrokInteractive/compendium GrokInteractive/grokinteractive.github.io',
+ 'starred': u'4',
+ 'username': u'joshfreemanIO'}

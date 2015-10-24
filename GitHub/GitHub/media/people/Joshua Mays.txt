@@ -1,0 +1,12 @@
+{'followers': u'8',
+ 'following': u'8',
+ 'fullname': u'Joshua Mays',
+ 'home_page': 'https://github.com/JoshuaMays',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/8404857?v=3&s=460'],
+ 'joined': u'Aug 9, 2014',
+ 'mail': u'joshua.r.mays@gmail.com',
+ 'organization': u'San Antonio, TX, EARTH',
+ 'popular_repos': u'  ci3-fire-starter CLI_Todo_List codeup.dev Codeup_Challenges Codeup_Exercises',
+ 'repo_contributions': u'  seek-city/seek-city / / / /',
+ 'starred': u'12',
+ 'username': u'JoshuaMays'}

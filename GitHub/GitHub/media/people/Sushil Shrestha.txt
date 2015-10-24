@@ -1,0 +1,12 @@
+{'followers': u'8',
+ 'following': u'33',
+ 'fullname': u'Sushil Shrestha',
+ 'home_page': 'https://github.com/sushil10018',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/4936101?v=3&s=460'],
+ 'joined': u'Jul 4, 2013',
+ 'mail': u'sushil10018@gmail.com',
+ 'organization': u'Esignature Pvt. Ltd.',
+ 'popular_repos': '      ',
+ 'repo_contributions': '  / / / / /',
+ 'starred': u'10',
+ 'username': u'sushil10018'}

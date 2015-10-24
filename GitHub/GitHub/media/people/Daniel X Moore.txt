@@ -1,0 +1,12 @@
+{'followers': u'513',
+ 'following': u'9.2k',
+ 'fullname': u'Daniel X Moore',
+ 'home_page': 'https://github.com/STRd6',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/18894?v=3&s=460'],
+ 'joined': u'Jul 30, 2008',
+ 'mail': u'yahivin@gmail.com',
+ 'organization': u'Fog Creek',
+ 'popular_repos': u'  pixel-editor Boomstick priority_queue coffee-time matrix.js',
+ 'repo_contributions': u'  distri/tactics-core distri/text distri/postmaster distri/builder distri/packager',
+ 'starred': u'174',
+ 'username': u'STRd6'}

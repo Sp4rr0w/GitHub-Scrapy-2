@@ -1,0 +1,12 @@
+{'followers': u'3',
+ 'following': u'6',
+ 'fullname': u'mary klonek reyes',
+ 'home_page': 'https://github.com/klonekreyesm',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/8325160?v=3&s=460'],
+ 'joined': u'Aug 1, 2014',
+ 'mail': 'None',
+ 'organization': u'san antonio, tx',
+ 'popular_repos': u'  Blog.dev Codeup_Exercises Codeup_Web_Exercises High_Low Planner.dev',
+ 'repo_contributions': u'  Finance101/Finance101 / / / /',
+ 'starred': u'2',
+ 'username': u'klonekreyesm'}

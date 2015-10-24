@@ -1,0 +1,12 @@
+{'followers': u'16',
+ 'following': u'17',
+ 'fullname': u'Patrick Rodo',
+ 'home_page': 'https://github.com/PatrickRodo',
+ 'image_urls': [u'https://avatars2.githubusercontent.com/u/8671733?v=3&s=460'],
+ 'joined': u'Sep 5, 2014',
+ 'mail': u'patrickrodo@yahoo.com',
+ 'organization': u'San Antonio, Texas',
+ 'popular_repos': u'  CLI_Todo_List Codeup_Homework Codeup_Web_Exercises exercises High_Low',
+ 'repo_contributions': u'  DMP-Capstone/TableMaster / / / /',
+ 'starred': u'0',
+ 'username': u'PatrickRodo'}

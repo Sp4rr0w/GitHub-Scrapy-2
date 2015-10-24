@@ -1,0 +1,12 @@
+{'followers': u'3',
+ 'following': u'12',
+ 'fullname': u'Pedro Tomaz Alves',
+ 'home_page': 'https://github.com/mastermt',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/222211?v=3&s=460'],
+ 'joined': u'Mar 14, 2010',
+ 'mail': u'pedro.tomaz@gmail.com',
+ 'organization': u'Instituto da Lingua Inglesa',
+ 'popular_repos': u'  developer.github.com flask-AdminLTE kivy payload philm',
+ 'repo_contributions': u'  leereilly/swot / / / /',
+ 'starred': u'166',
+ 'username': u'mastermt'}

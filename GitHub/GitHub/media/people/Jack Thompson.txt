@@ -1,0 +1,12 @@
+{'followers': u'693',
+ 'following': u'5.3k',
+ 'fullname': u'Jack Thompson',
+ 'home_page': 'https://github.com/shoshindes',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/13901088?v=3&s=460'],
+ 'joined': u'Aug 21, 2015',
+ 'mail': u'jackthomn@gmail.com',
+ 'organization': u'MobileMade Inc.',
+ 'popular_repos': u'  git-aliases crypto-pals Signal.swift Swift SwiftBloom',
+ 'repo_contributions': u'  SwiftlyFunctional/BuildYourOwnRx MuchSwift/SwiftFutures financeios/JTSwiftEasyFIX financeios/JTCleanChart pragmaticjs/PlainQuery',
+ 'starred': u'143',
+ 'username': u'shoshindes'}

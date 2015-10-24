@@ -1,0 +1,12 @@
+{'followers': u'1k',
+ 'following': u'72.4k',
+ 'fullname': u'Alex Cory',
+ 'home_page': 'https://github.com/alex-cory',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/5455859?v=3&s=460'],
+ 'joined': u'Sep 14, 2013',
+ 'mail': u'results@alexcory.com',
+ 'organization': u'Citrix, Google, Director of HackingEDU',
+ 'popular_repos': u'  fasthacks alfred-workflows Interviews the-perfect-portfolio react-css-to-js',
+ 'repo_contributions': u'  HackingEDU/TrainingDaySplash HackingEDU/hackingedu-website HackingEDU/hackingedu.co HackingEDU/SplashPage HackathonHackers/personal-sites',
+ 'starred': u'195',
+ 'username': u'alex-cory'}

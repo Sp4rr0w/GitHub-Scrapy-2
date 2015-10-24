@@ -1,0 +1,12 @@
+{'followers': u'219',
+ 'following': u'370',
+ 'fullname': u'Tom Wilson',
+ 'home_page': 'https://github.com/twilson63',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/21292?v=3&s=460'],
+ 'joined': u'Aug 20, 2008',
+ 'mail': u'tom@jackhq.com',
+ 'organization': u'Jack Russell Software Company',
+ 'popular_repos': u'  express-coffee ngUpload html2haml cakefile-template cupcake',
+ 'repo_contributions': u'  jackruss/jackhq.com stylinchas/eirenerx_angular dcgolden/phrase nodebotschs/nodebotschs.github.io maxogden/wzrd',
+ 'starred': u'817',
+ 'username': u'twilson63'}

@@ -1,0 +1,12 @@
+{'followers': u'8',
+ 'following': u'14',
+ 'fullname': u'Anton Domratchev',
+ 'home_page': 'https://github.com/antondomratchev',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/2993324?v=3&s=460'],
+ 'joined': u'Dec 8, 2012',
+ 'mail': u'antond@grok-interactive.com',
+ 'organization': u'Grok Interactive',
+ 'popular_repos': u'  bangShell-C codingwithbeer codingwithcoffee dotfiles emberjs-polymer',
+ 'repo_contributions': u'  GrokInteractive/GrokTrivia-Ember diraimondo/gmusicproxy BenConstable/phpspec-laravel laracasts/TestDummy mcamara/laravel-localization',
+ 'starred': u'15',
+ 'username': u'antondomratchev'}

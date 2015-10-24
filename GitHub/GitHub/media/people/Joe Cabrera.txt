@@ -1,0 +1,12 @@
+{'followers': u'32',
+ 'following': u'78',
+ 'fullname': u'Joe Cabrera',
+ 'home_page': 'https://github.com/greedo',
+ 'image_urls': [u'https://avatars0.githubusercontent.com/u/410872?v=3&s=460'],
+ 'joined': u'Sep 22, 2010',
+ 'mail': u'jcabrera@eminorlabs.com',
+ 'organization': u'Vimeo',
+ 'popular_repos': u'  python-xbrl DIY-FilingsResearch Presentations flask-oauth2-devices python-xbrl-middleware',
+ 'repo_contributions': u'  FinFeed/pyfinfeed vimeo/vimeo.py FinFeed/rbfinfeed vimeo/vimeo.php FinFeed/phpfinfeed',
+ 'starred': u'99',
+ 'username': u'greedo'}

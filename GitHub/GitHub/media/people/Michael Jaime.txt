@@ -1,0 +1,12 @@
+{'followers': u'15',
+ 'following': u'44',
+ 'fullname': u'Michael Jaime',
+ 'home_page': 'https://github.com/mikejaime',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/7293171?v=3&s=460'],
+ 'joined': u'Apr 14, 2014',
+ 'mail': 'None',
+ 'organization': u'Full-Stack Web Developer',
+ 'popular_repos': '      ',
+ 'repo_contributions': '  / / / / /',
+ 'starred': u'13',
+ 'username': u'mikejaime'}

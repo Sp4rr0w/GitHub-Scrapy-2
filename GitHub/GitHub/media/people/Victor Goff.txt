@@ -1,0 +1,12 @@
+{'followers': u'215',
+ 'following': u'650',
+ 'fullname': u'Victor Goff',
+ 'home_page': 'https://github.com/kotp',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/16747?v=3&s=460'],
+ 'joined': u'Jul 11, 2008',
+ 'mail': u'keeperotphones+github@gmail.com',
+ 'organization': u'USA',
+ 'popular_repos': u'  testing-basics rlcw test-unit-basic fizzbuzzdazzkezz shoes_tutorial_html',
+ 'repo_contributions': u'  RubySteps/21-day-challenge exercism/xruby Atul9/rubylearning56 gabrie30/RubyLearning Cryptochris/RubyLearning',
+ 'starred': u'398',
+ 'username': u'kotp'}

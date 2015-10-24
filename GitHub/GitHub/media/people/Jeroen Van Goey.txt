@@ -1,0 +1,12 @@
+{'followers': u'19',
+ 'following': u'78',
+ 'fullname': u'Jeroen Van Goey',
+ 'home_page': 'https://github.com/BioGeek',
+ 'image_urls': [u'https://avatars3.githubusercontent.com/u/59344?v=3&s=460'],
+ 'joined': u'Mar 2, 2009',
+ 'mail': 'None',
+ 'organization': u'http://www.applied-maths.com/',
+ 'popular_repos': u'  aima euler 50-examples GeneOntologyTermsTree pymzML',
+ 'repo_contributions': u'  theandygross/TCGA rory/gedcompy mattjoyce/beeminderpy firasdib/Regex101 uwplse/herbie',
+ 'starred': u'205',
+ 'username': u'BioGeek'}

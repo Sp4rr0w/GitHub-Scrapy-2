@@ -1,0 +1,12 @@
+{'followers': u'298',
+ 'following': u'923',
+ 'fullname': u'Richard Iannone',
+ 'home_page': 'https://github.com/rich-iannone',
+ 'image_urls': [u'https://avatars1.githubusercontent.com/u/5612024?v=3&s=460'],
+ 'joined': u'Oct 4, 2013',
+ 'mail': u'riannone@me.com',
+ 'organization': u'Vancouver, BC, Canada',
+ 'popular_repos': u'  DiagrammeR stationaRy UnidecodeR SplitR PuffR',
+ 'repo_contributions': u'  WeAreVisualizers/chromatography simbiapp/simbi-ios WeAreVisualizers/wearevisualizers.github.io htmlwidgets/knob VancouverDataScience/kaggle_westnile',
+ 'starred': u'557',
+ 'username': u'rich-iannone'}
