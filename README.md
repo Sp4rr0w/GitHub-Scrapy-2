@@ -1,4 +1,4 @@
-# GitHubScrapyPro
+﻿# GitHubScrapyPro
 运行：scrapy crawl github
 
 一.目录介绍
@@ -21,6 +21,12 @@
 
 运行此爬虫还需要下载NOSQL（MonGoDB），及MongoVUE（windows下的软件）。
 
+
+update:2015/11/05:
+
+scrapy.vsd:项目流程图
+
+scrapy_数据对比：爬取数据对比
 
 
 注：连接数据库代码是网上的QAQ，不是我写的OAO.......闪。

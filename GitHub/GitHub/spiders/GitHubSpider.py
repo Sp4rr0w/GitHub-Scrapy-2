@@ -26,9 +26,10 @@ b=0#限制爬取数量
 #c=30#爬取深度为30
 f_newlist=[]#文件名（不包含后缀），避免重复爬取。
 filecount = 0#文件数量
-followers_list=["https://github.com/1st1",]#用户主页链接
+people_urls_list=["https://github.com/1st1",]#存放用户主页链接
+people_urls=[]
 followers_urls=["https://github.com/1st1/followers",]#存储所有followers不为零的用户followers页面，以便进一步爬取
-counter=0#多少followers
+count=0#多少followers
 followers_url_people=51#每个follwers页面最多为51位
 class GithubSpider(Spider):
     """
@@ -51,17 +52,42 @@ class GithubSpider(Spider):
     def parse(self,response):
         print "~"*60+"start"
         print response.url
+        parse_url=response.url
         people_mainpage=Selector(response)
         
         self.getfile()
         self.filesnum()
         print "saved "+str(filecount)+" people.    OK-Continue~~~"
         global f_newlist
-        global followers_list
+        global people_urls_list
+        global people_urls
+        #如果此列表中含有此链接，则不爬取，转向其它URL。
+        #若没有此链接，则添加此链接到people_url，下一次爬即可判断是否重复爬取了
+        if parse_url not in people_urls:
+            people_urls.append(parse_url)
+        else:
+            if people_urls_list !=[]:
+                people_link_1=people_urls_list[0]
+                people_urls_list.remove(people_link_1)
+                print "~~~~~~~~~~~~~~~Prohibition of repeated crawling~"
+                yield Request(url=people_link_1,callback=self.parse,dont_filter=True)
+            else:
+                if followers_urls != []:
+                    followers_link_1=followers_urls[0]
+                    followers_urls.remove(followers_link_1)
+                    print "~~~~~~~~~~~~~~~~Prohibition of repeated crawling~"
+                    yield Request(url=followers_link_1,callback=self.parse,dont_filter=True)
+        people_urls_2=[]#去重
+        for m in range(len(people_urls)):
+            if people_urls[m] not in people_urls_2:
+                people_urls_2.append(people_urls[m])
+        people_urls=people_urls_2
+
+
         people=Github_Item()#以下是爬取用户的详细信息
-        people['home_page']=response.url
+        people['home_page']=parse_url
         people_profile=people_mainpage.xpath('//div[@class="column one-fourth vcard"]')
-        people['image_urls'] = people_profile.xpath('a[1]/img/@src').extract()
+        #people['image_urls'] = people_profile.xpath('a[1]/img/@src').extract()
         x1=people_profile.xpath('h1/span[@class="vcard-fullname"]/text()').extract()
         if x1==[]:#没有if/else 会出现超越边界错误。以下都是
             people['fullname']="None"
@@ -73,10 +99,10 @@ class GithubSpider(Spider):
                     break
                     #如果和followers_urls相等  则跳出
                 else:
-                    if followers_list !=[]:
-                        followers_1=followers_list[0]
-                        followers_list.remove(followers_1)
-                        yield Request(url=followers_1,callback=self.parse,dont_filter=True)
+                    if people_urls_list !=[]:
+                        people_link_1=people_urls_list[0]
+                        people_urls_list.remove(people_link_1)
+                        yield Request(url=people_link_1,callback=self.parse,dont_filter=True)
         
         x2=people_profile.xpath('h1/span[@class="vcard-username"]/text()').extract()
         if x2==[]:
@@ -129,9 +155,10 @@ class GithubSpider(Spider):
         fh.write(str(xxxx))
         fh.close()
         global b
+        #最多爬50000
         if(b<50000):
             b+=1
-            #have a error!!!!!!!!!!!!!!!!!
+            #sometime have a error!!!!!!!!!!!!!!!!!
             if people['home_page']!=host:
                 print "crawl "+str(b)+" people"
                 yield people#yield people 才能把数据存入数据库和json文件
@@ -140,21 +167,22 @@ class GithubSpider(Spider):
     def parse_followers(self,response):
         print "~"*60+"parse_followers"
         print response.url#followers页面
+        parse_url=response.url
         global followers_urls
-        global followers_list
+        global people_urls_list
         people_parse_one=Selector(response)
         ########################################################
-        counterr=people_parse_one.xpath('//span[@class="counter"]/text()').extract()
-        counter=counterr[0]
+        countr=people_parse_one.xpath('//span[@class="counter"]/text()').extract()
+        count=countr[0]
         #follower页面人数表示为"123,456"
-        counter=int(counter.replace(',',''))
-        if counter==0:
-            yield Request(url=followers_list[0],callback=self.parse,dont_filter=True)
-        elif counter>followers_url_people:
-            counter1=counter/followers_url_people+1
-            #一个页面有51个人，counter1指有多少页面
-            for o in range(2,counter1+1):
-                followers_urls.append(response.url+"?page="+str(o))
+        count=int(count.replace(',',''))
+        if count==0:
+            yield Request(url=people_urls_list[0],callback=self.parse,dont_filter=True)
+        elif count>followers_url_people:
+            count1=count/followers_url_people+1
+            #一个页面有51个人，count1指有多少页面
+            for o in range(2,count1+1):
+                followers_urls.append(parse_url+"?page="+str(o))
         else:
             pass
 
@@ -167,24 +195,25 @@ class GithubSpider(Spider):
         #尝试把所有关注者（followers）的主页面链接保存下来
         for i in range(1,52):
             followers_link=host+''.join(people_parse_one.xpath('//ol[@class="follow-list clearfix"]/li['+str(i)+']/a/@href').extract())
-            followers_list.append(followers_link)
+            people_urls_list.append(followers_link)
 
-        followers_list_2=[]#去重
-        for m in range(len(followers_list)):
-            if followers_list[m] not in followers_list_2:
-                followers_list_2.append(followers_list[m])
+        people_urls_list_2=[]#去重
+        for m in range(len(people_urls_list)):
+            if people_urls_list[m] not in people_urls_list_2:
+                people_urls_list_2.append(people_urls_list[m])
 
-        followers_list=followers_list_2
-        if host in followers_list:
-            followers_list.remove(host)
-        followers_1=followers_list[0]#先把要取的一个保存为followers_1  然后再删掉  再爬取followers_1。
-        followers_list.remove(followers_1)
-        print "len(followers_list):"+str(len(followers_list))
-        yield Request(url=followers_1,callback=self.parse_one,dont_filter=True)
+        people_urls_list=people_urls_list_2
+        if host in people_urls_list:
+            people_urls_list.remove(host)
+        people_link_1=people_urls_list[0]#先把要取的一个保存为people_link_1  然后再删掉  再爬取people_link_1。
+        people_urls_list.remove(people_link_1)
+        print "len(people_urls_list):"+str(len(people_urls_list))
+        yield Request(url=people_link_1,callback=self.parse_one,dont_filter=True)
 
     def parse_one(self,response):
         print "~"*60+"parse_one_start"
         print response.url
+        parse_url=response.url
         people_parse_one=Selector(response)
         x=people_parse_one.xpath('//div[@class="vcard-stats"]/a[1]/strong[@class="vcard-stat-count"]/text()').extract()
         followers_page=host+''.join(people_parse_one.xpath('//a[@class="vcard-stat"][1]/@href').extract())
@@ -207,20 +236,20 @@ class GithubSpider(Spider):
         if rr!= 0:
             followers_urls.append(followers_page)
             print "followers is not 0 ....Go to--->"
-            yield Request(url=response.url,callback=self.parse,dont_filter=True)
+            yield Request(url=parse_url,callback=self.parse,dont_filter=True)
         else:
             #当x=['0']时 不再返回前一页面（难搞），而是重新爬取followers_urls里面链接。
-            if followers_list==[]:
+            if people_urls_list==[]:
                 if followers_urls != []:
-                    followers_1=followers_urls[0]
-                    followers_urls.remove(followers_1)
-                    yield Request(url=followers_1,callback=self.parse,dont_filter=True)
+                    followers_link_1=followers_urls[0]
+                    followers_urls.remove(followers_link_1)
+                    yield Request(url=followers_link_1,callback=self.parse,dont_filter=True)
             else:
-                print "followers_list第一个参数:"
-                print followers_list[0]  
-                followers_1=followers_list[0]#先把要取的一个保存为followers_1  然后再删掉  再爬取followers_1。
-                followers_list.remove(followers_1)
-                yield Request(url=followers_1,callback=self.parse,dont_filter=True)
+                print "people_urls_list第一个参数:"
+                print people_urls_list[0]  
+                people_link_1=people_urls_list[0]#先把要取的一个保存为people_link_1  然后再删掉  再爬取people_link_1。
+                people_urls_list.remove(people_link_1)
+                yield Request(url=people_link_1,callback=self.parse,dont_filter=True)
     
     def getfile(self):#获取文件名（不包含后缀)
         path1 = r'GitHub\media\people'
@@ -266,3 +295,4 @@ class GithubSpider(Spider):
 # >>> 5  
 # c.next()  
 # >>>4  
+ 

@@ -29,7 +29,7 @@ class MongoDBpipeline(object):
         db=client[settings['MONGODB_DB']]
         self.collection=db[settings['MONGODB_COLLECTION']]
         #模块codecs提供了一个open()方法，可以指定一个编码打开文件，使用这个方法打开的文件读取返回的将是unicode
-        self.file=codecs.open('GitHub14_data_utf-8.json','wb',encoding='utf-8')#json文件的处理转为utf-8。
+        self.file=codecs.open('GitHub30_data_utf-8.json','wb',encoding='utf-8')#json文件的处理转为utf-8。
         
     def process_item(self, item, spider):
         valid=True
@@ -40,7 +40,7 @@ class MongoDBpipeline(object):
 
         if valid:
             self.collection.insert(dict(item))
-            log.msg("github14_info added to Mondb database!",
+            log.msg("github30_info added to Mongodb database!",
                     level=log.DEBUG,spider=spider)#level – 该信息的log级别,默认DEBUG调试信息
         line=json.dumps(dict(item))+'\n'
         self.file.write(line.decode("unicode_escape"))#json文件的处理转为utf-8。
@@ -79,7 +79,7 @@ from scrapy.contrib.pipeline.images import ImagesPipeline
 from scrapy.http import Request
 from scrapy.exceptions import DropItem
 
-class MyImagesPipeline(ImagesPipeline):
+#class MyImagesPipeline(ImagesPipeline):
     # def file_path(self,request,response=None,info=None):
     #     print "1111111111"+request.url+"111111111111111"
     #     print "11111111111111111111111111111111"
@@ -87,17 +87,17 @@ class MyImagesPipeline(ImagesPipeline):
     #     image_guid = request.url.split('/')[-1]
     #     return 'full/%s' % (image_guid)
 
-    def get_meida_request(self,item,info):
-        for image_url in item['image_urls']:
-            yield scrapy.Request(image_url)
+    # def get_meida_request(self,item,info):
+    #     for image_url in item['image_urls']:
+    #         yield scrapy.Request(image_url)
 
-    def item_completed(self,result,item,info):
-        image_paths=[x['path'] for ok,x in results if ok]
-        print "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-        if not image_paths:
-            raise DropItem("It contains no image")
-        item['image_paths']=image_paths
-        return item
+    # def item_completed(self,result,item,info):
+    #     image_paths=[x['path'] for ok,x in results if ok]
+    #     print "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    #     if not image_paths:
+    #         raise DropItem("It contains no image")
+    #     item['image_paths']=image_paths
+    #     return item
 
 
 

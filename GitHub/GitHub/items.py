@@ -21,5 +21,5 @@ class Github_Item(scrapy.Item):
     repo_contributions = scrapy.Field()
     home_page = scrapy.Field()
     image_urls = scrapy.Field()
-    images = scrapy.Field()
+    #images = scrapy.Field()
     pass
