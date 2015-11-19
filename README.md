@@ -19,7 +19,6 @@
 
 
 
-运行此爬虫还需要下载NOSQL（MonGoDB），及MongoVUE（windows下的软件）。
 
 
 update:2015/11/05:
@@ -29,7 +28,16 @@ scrapy.vsd:项目流程图
 scrapy_数据对比：爬取数据对比
 
 
+update:2015/11/19:
+
+cmd.bat:点击运行scrapy程序。
+
+scrapy_swing.exe:scrapy图形界面，用swing写的。点击运行。
+
+
 注：
+1.Win7 64位。运行此爬虫程序必须安装完scrapy、mongoDB、java等必需应用。
+
 1.连接数据库代码是网上的QAQ，不是我写的OAO.......闪。
 
 2.这是之前上传的ScrapyGitHub的2.0版  

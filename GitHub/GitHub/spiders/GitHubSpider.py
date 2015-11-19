@@ -19,9 +19,9 @@ import os
 reload (sys)
 sys.setdefaultencoding("utf-8")#这3句话让爬到的内容是utf-8的
 host="https://github.com"
-a=1#followers为零的人数
-q=1#判断
-j=0#判断
+# a=1#followers为零的人数
+# q=1#判断
+# j=0#判断
 b=0#限制爬取数量
 #c=30#爬取深度为30
 f_newlist=[]#文件名（不包含后缀），避免重复爬取。
